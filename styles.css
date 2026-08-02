@@ -28,6 +28,7 @@ body {
 .hero {
   min-height: 100vh;
   background: url("assets/hero.jpg") center center / cover no-repeat;
+  background-position: center calc(50% + var(--hero-pan, 0px));
   display: flex;
   flex-direction: column;
   padding: 1.8rem 2.5rem 2.5rem;
