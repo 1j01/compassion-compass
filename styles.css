@@ -215,7 +215,7 @@ footer h2 {
 }
 
 .intro-copy li::before {
-  content: "\2022 ";
+  content: "\2022\00A0";
 }
 
 .badges {
