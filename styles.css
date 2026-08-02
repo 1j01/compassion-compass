@@ -210,14 +210,13 @@ footer h2 {
 }
 
 .badges {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
 .badges img {
-  width: 100%;
-  max-width: 220px;
-  justify-self: center;
+  width: min(220px, 100%);
 }
 
 .contact {
@@ -297,13 +296,6 @@ footer a {
   .portrait figcaption {
     right: 0;
     font-size: 1.6rem;
-  }
-
-  .badges {
-    grid-auto-flow: column;
-    justify-content: start;
-    overflow-x: auto;
-    padding-bottom: 0.2rem;
   }
 
   .name-row {
