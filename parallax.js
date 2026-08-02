@@ -4,24 +4,16 @@
     return;
   }
 
-  let ticking = false;
-
   const updateParallax = () => {
-    const heroRect = hero.getBoundingClientRect();
-    const heroTop = window.scrollY + heroRect.top;
-    const offset = (window.scrollY - heroTop) * 0.5;
-
+    const offset = (window.scrollY) * 0.5;
     hero.style.setProperty('--hero-pan', `${offset.toFixed(2)}px`);
-    ticking = false;
   };
 
-  const onScroll = () => {
-    if (ticking) return;
-    ticking = true;
+  const updateParallaxSoon = () => {
     requestAnimationFrame(updateParallax);
   };
 
-  window.addEventListener('scroll', onScroll, { passive: true });
-  window.addEventListener('resize', onScroll);
-  onScroll();
+  window.addEventListener('scroll', updateParallaxSoon, { passive: true });
+  window.addEventListener('resize', updateParallaxSoon);
+  updateParallaxSoon();
 })();
