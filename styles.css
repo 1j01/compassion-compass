@@ -36,8 +36,8 @@ body {
 .top-nav {
   display: grid;
   grid-template-columns: 260px 1fr;
-  align-items: start;
-  gap: 0.8rem 2rem;
+  align-items: center;
+  gap: 1rem 2rem;
 }
 
 .logo {
@@ -46,15 +46,12 @@ body {
   display: block;
 }
 
-.links-row {
+.nav-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2.2rem;
-}
-
-.links-row-bottom {
   grid-column: 2;
-  margin-top: -0.25rem;
 }
 
 .top-nav a {
@@ -241,11 +238,8 @@ footer a {
     justify-items: center;
   }
 
-  .links-row,
-  .links-row-bottom {
+  .nav-links {
     grid-column: auto;
-    flex-wrap: wrap;
-    margin-top: 0;
   }
 
   .intro {
