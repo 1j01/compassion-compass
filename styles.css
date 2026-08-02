@@ -87,6 +87,63 @@ body {
   letter-spacing: 0.02em;
 }
 
+.site-header {
+  background: var(--lavender-bg);
+  padding: 1.2rem 2.5rem;
+  border-bottom: 1px solid #d7d4e4;
+}
+
+.site-header .top-nav {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.page-main {
+  width: min(920px, 92vw);
+  margin: 0 auto;
+  padding: 3rem 0 2.4rem;
+}
+
+.page-title {
+  text-align: center;
+  margin: 0 0 2rem;
+  font-family: "Julee", cursive;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.page-main h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 2rem 0 1rem;
+}
+
+.page-main h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  margin: 1.8rem 0 0.8rem;
+}
+
+.page-main ul,
+.page-main ol {
+  padding-left: 1.2rem;
+}
+
+.page-main li {
+  margin: 0.55rem 0;
+}
+
+.hours p {
+  margin: 0.3rem 0;
+}
+
+.inline-note {
+  font-style: italic;
+}
+
 main,
 footer {
   background: var(--lavender-bg);
@@ -261,6 +318,10 @@ footer a {
 
   .name-row {
     grid-template-columns: 1fr;
+  }
+
+  .site-header {
+    padding: 1rem;
   }
 }
 
