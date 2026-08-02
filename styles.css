@@ -19,7 +19,6 @@ body {
   font-family: futura-pt, "Avenir Next", "Century Gothic", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  letter-spacing: 0.06em;
   line-height: 1.6;
   color: var(--ink);
   background: var(--lavender-bg);
@@ -60,7 +59,6 @@ body {
   color: #060606;
   font-size: 0.8rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
 }
 
 .hero-text {
@@ -85,7 +83,6 @@ body {
 .hero-text h2 {
   font-size: clamp(1.8rem, 3.4vw, 2.25rem);
   font-weight: 400;
-  letter-spacing: 0.02em;
 }
 
 .site-header {
@@ -111,20 +108,17 @@ body {
   font-family: "Julee", cursive;
   font-size: clamp(2.4rem, 5vw, 3.6rem);
   font-weight: 400;
-  letter-spacing: 0;
 }
 
 .page-main h2 {
   font-size: 2rem;
   font-weight: 400;
-  letter-spacing: 0.02em;
   margin: 2rem 0 1rem;
 }
 
 .page-main h3 {
   font-size: 1.4rem;
   font-weight: 400;
-  letter-spacing: 0.03em;
   margin: 1.8rem 0 0.8rem;
 }
 
@@ -184,7 +178,6 @@ footer {
   padding: 1.2rem 1.3rem;
   font-size: 2rem;
   line-height: 1;
-  letter-spacing: 0;
   font-family: "Julee", cursive;
 }
 
@@ -193,7 +186,6 @@ footer {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.4;
-  letter-spacing: 0.04em;
 }
 
 .intro-copy h2,
@@ -201,7 +193,6 @@ footer {
 footer h2 {
   font-size: 2.1rem;
   font-weight: 400;
-  letter-spacing: 0.02em;
   margin: 2.4rem 0 1rem;
 }
 
@@ -267,7 +258,6 @@ button {
   color: #fff;
   border: none;
   padding: 0.85rem 1.4rem;
-  letter-spacing: 0.16em;
   font-size: 0.78rem;
   font-weight: 700;
   cursor: pointer;
@@ -338,7 +328,6 @@ footer a {
 
   .top-nav a {
     font-size: 0.67rem;
-    letter-spacing: 0.11em;
   }
 
   .hero-text h2 {
