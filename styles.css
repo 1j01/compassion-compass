@@ -162,6 +162,8 @@ footer {
 .portrait {
   margin: 0;
   position: relative;
+  container-type: inline-size;
+  width: min(100%, 775px);
 }
 
 .portrait img {
@@ -171,14 +173,15 @@ footer {
 
 .portrait figcaption {
   position: absolute;
-  top: 14px;
-  right: -20px;
+  top: 2.2cqw;
+  right: 0;
   background: #0a0a10;
   color: #fff;
-  padding: 1.2rem 1.3rem;
-  font-size: 2rem;
+  padding: 2.45cqw 2.7cqw;
+  font-size: 5.2cqw;
   line-height: 1;
   font-family: "Julee", cursive;
+  white-space: nowrap;
 }
 
 .intro-copy h3 {
@@ -294,8 +297,10 @@ footer a {
   }
 
   .portrait figcaption {
+    top: 2.9cqw;
     right: 0;
-    font-size: 1.6rem;
+    padding: 3.2cqw 3.6cqw;
+    font-size: 6.1cqw;
   }
 
   .name-row {
