@@ -3,7 +3,7 @@
   --ink: #121216;
   --purple: #553487;
   --shadow-dark: rgba(0, 0, 0, 0.8);
-  --shadow-violet: rgba(128, 0, 128, 0.95);
+  --shadow-blush: rgba(128, 0, 128, 0.95);
 }
 
 * {
@@ -71,7 +71,7 @@ body {
 
 .hero-text h1,
 .hero-text h2 {
-  text-shadow: 2px 2px 4px var(--shadow-dark), 2px 2px 40px var(--shadow-violet);
+  text-shadow: 2px 2px 4px var(--shadow-dark), 2px 2px 40px var(--shadow-blush);
   margin: 0;
 }
 
