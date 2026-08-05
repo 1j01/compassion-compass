@@ -241,10 +241,25 @@ footer h2 {
   padding: 1rem 0 3rem;
 }
 
+.form-notice {
+  margin: 0 0 1rem;
+  max-width: 900px;
+  font-weight: 600;
+}
+
+.contact-link {
+  color: #111;
+  text-underline-offset: 2px;
+}
+
 form {
   max-width: 900px;
   display: grid;
   gap: 1rem;
+}
+
+form[aria-disabled="true"] {
+  opacity: 0.7;
 }
 
 .name-row {
@@ -278,6 +293,10 @@ button {
   font-size: 0.78rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
 
 footer {
