@@ -27,7 +27,17 @@ body {
 
 .hero {
   min-height: 100vh;
-  background: url("assets/hero.jpg") center center / cover no-repeat;
+  background: url("assets/hero.jpg") center center / cover no-repeat,
+    linear-gradient(0deg, 
+      #3A1F34,
+      #915A7F,
+      #E18B86,
+      #F5CBBE,
+      #E1B6C4,
+      #726AB8,
+      #605AAA
+    );
+  background-color: #915A7F;
   background-position: center calc(50% - var(--hero-pan, 0px));
   background-attachment: fixed;
   display: flex;
