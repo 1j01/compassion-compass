@@ -169,16 +169,18 @@ footer {
 .portrait img {
   width: 100%;
   display: block;
+  transform: scale(0.8);
+  transform-origin: left center;
 }
 
 .portrait figcaption {
   position: absolute;
-  top: 2.2cqw;
+  top: 15.2cqw;
   right: 0;
   background: #0a0a10;
   color: #fff;
   padding: 2.45cqw 2.7cqw;
-  font-size: 5.2cqw;
+  font-size: 5.5cqw;
   line-height: 1;
   font-family: "Julee", cursive;
   white-space: nowrap;
@@ -296,13 +298,6 @@ footer a {
     padding-top: 3.2rem;
   }
 
-  .portrait figcaption {
-    top: 2.9cqw;
-    right: 0;
-    padding: 3.2cqw 3.6cqw;
-    font-size: 6.1cqw;
-  }
-
   .name-row {
     grid-template-columns: 1fr;
   }
@@ -329,4 +324,22 @@ footer a {
   .hero-text h2 {
     font-size: 1.55rem;
   }
+
+  .portrait {
+    margin-bottom: 3cqw;
+  }
+
+  .portrait img {
+    transform: unset;
+  }
+
+  .portrait figcaption {
+    top: unset;
+    left: 5cqw;
+    right: 5cqw;
+    bottom: -4cqw;
+    padding: 3.2cqw 3.6cqw;
+    font-size: 6.1cqw;
+  }
+
 }
