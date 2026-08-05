@@ -1,6 +1,7 @@
 :root {
   --lavender-bg: #eceaf4;
   --ink: #121216;
+  --purple: #553487;
   --shadow-dark: rgba(0, 0, 0, 0.8);
   --shadow-violet: rgba(128, 0, 128, 0.95);
 }
@@ -172,13 +173,14 @@ footer {
   display: block;
   transform: scale(0.8);
   transform-origin: left center;
+  outline: 14px solid var(--purple);
 }
 
 .portrait figcaption {
   position: absolute;
   top: 15.2cqw;
   right: 0;
-  background: #0a0a10;
+  background: var(--purple);
   color: #fff;
   padding: 2.45cqw 2.7cqw;
   font-size: 5.5cqw;
