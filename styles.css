@@ -28,14 +28,14 @@ body {
 .hero {
   min-height: 100vh;
   background: url("assets/hero.jpg") center center / cover no-repeat,
-    linear-gradient(0deg, 
-      #3A1F34,
-      #915A7F,
-      #E18B86,
-      #F5CBBE,
-      #E1B6C4,
+    linear-gradient(180deg, 
+      #605AAA,
       #726AB8,
-      #605AAA
+      #E1B6C4,
+      #F5CBBE,
+      #E18B86,
+      #915A7F,
+      #3A1F34
     );
   background-color: #915A7F;
   background-position: center calc(50% - var(--hero-pan, 0px));
